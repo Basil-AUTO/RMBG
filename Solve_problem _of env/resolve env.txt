@@ -1,0 +1,4 @@
+https://www.stanleyulili.com/powershell/solution-to-running-scripts-is-disabled-on-this-system-error-on-powershell
+
+
+PS F:\new_pro> & F:\new_pro\.venv\Scripts\Activate.ps1

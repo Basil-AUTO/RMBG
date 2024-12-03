@@ -1,0 +1,106 @@
+{
+    "message": {
+        "channel_chat_created": false,
+        "delete_chat_photo": false,
+        "group_chat_created": false,
+        "photo": [
+            {
+                "height": 60,
+                "width": 90,
+                "file_id": "AgACAgQAAxkBAAMYZ0xY9JDYTSNm94H62Js-dITTnwADlsExGzV2YVKwpNtO2nld3wEAAwIAA3MAAzYE",
+                "file_size": 1779,
+                "file_unique_id": "AQADlsExGzV2YVJ4"
+            },
+            {
+                "height": 212,
+                "width": 320,
+                "file_id": "AgACAgQAAxkBAAMYZ0xY9JDYTSNm94H62Js-dITTnwADlsExGzV2YVKwpNtO2nld3wEAAwIAA20AAzYE",
+                "file_size": 32108,
+                "file_unique_id": "AQADlsExGzV2YVJy"
+            },
+            {
+                "height": 531,
+                "width": 800,
+                "file_id": "AgACAgQAAxkBAAMYZ0xY9JDYTSNm94H62Js-dITTnwADlsExGzV2YVKwpNtO2nld3wEAAwIAA3gAAzYE",
+                "file_size": 148089,
+                "file_unique_id": "AQADlsExGzV2YVJ9"
+            },
+            {
+                "height": 850,
+                "width": 1280,
+                "file_id": "AgACAgQAAxkBAAMYZ0xY9JDYTSNm94H62Js-dITTnwADlsExGzV2YVKwpNtO2nld3wEAAwIAA3kAAzYE",
+                "file_size": 294199,
+                "file_unique_id": "AQADlsExGzV2YVJ-"
+            }
+        ],
+        "supergroup_chat_created": false,
+        "chat": {
+            "first_name": "Basil",
+            "id": 5089134456,
+            "last_name": "S. Elbalaawi",
+            "type": "private",
+            "username": "CiscoManForce"
+        },
+        "date": 1733056756,
+        "message_id": 24,
+        "from": {
+            "first_name": "Basil",
+            "id": 5089134456,
+            "is_bot": false,
+            "language_code": "en",
+            "last_name": "S. Elbalaawi",
+            "username": "CiscoManForce"
+        }
+    },
+    "update_id": 273632061
+}
+
+// Allow document without compresed
+
+{
+    "message": {
+        "channel_chat_created": false,
+        "delete_chat_photo": false,
+        "document": {
+            "file_name": "Car_With_Backgound.jpg",
+            "mime_type": "image/jpeg",
+            "thumbnail": {
+                "height": 213,
+                "width": 320,
+                "file_id": "AAMCBAADGQEAAxpnTGT4xzlgCwncHVc10i_bmnwPgAACLBMAAjV2YVL_f9Yoi1iMPAEAB20AAzYE",
+                "file_size": 29116,
+                "file_unique_id": "AQADLBMAAjV2YVJy"
+            },
+            "file_id": "BQACAgQAAxkBAAMaZ0xk-Mc5YAsJ3B1XNdIv25p8D4AAAiwTAAI1dmFS_3_WKItYjDw2BA",
+            "file_size": 2102587,
+            "file_unique_id": "AgADLBMAAjV2YVI",
+            "thumb": {
+                "file_id": "AAMCBAADGQEAAxpnTGT4xzlgCwncHVc10i_bmnwPgAACLBMAAjV2YVL_f9Yoi1iMPAEAB20AAzYE",
+                "file_unique_id": "AQADLBMAAjV2YVJy",
+                "file_size": 29116,
+                "width": 320,
+                "height": 213
+            }
+        },
+        "group_chat_created": false,
+        "supergroup_chat_created": false,
+        "chat": {
+            "first_name": "Basil",
+            "id": 5089134456,
+            "last_name": "S. Elbalaawi",
+            "type": "private",
+            "username": "CiscoManForce"
+        },
+        "date": 1733059832,
+        "message_id": 26,
+        "from": {
+            "first_name": "Basil",
+            "id": 5089134456,
+            "is_bot": false,
+            "language_code": "en",
+            "last_name": "S. Elbalaawi",
+            "username": "CiscoManForce"
+        }
+    },
+    "update_id": 273632062
+}
