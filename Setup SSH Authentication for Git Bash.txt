@@ -1,0 +1,96 @@
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=Linux
+
+https://gist.github.com/bsara/5c4d90db3016814a3d2fe38d314f9c23
+
+
+Using SSH over the HTTPS port:   مهم جدا جدا 
+
+https://docs.github.com/en/authentication/troubleshooting-ssh/using-ssh-over-the-https-port
+
+#################################################################
+
+…or create a new repository on the command line:
+
+echo "# new_pro" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin git@github.com:Basil-AUTO/new_pro.git
+git push -u origin master
+
+…or push an existing repository from the command line:
+
+git remote add origin git@github.com:Basil-AUTO/new_pro.git
+git branch -M master
+git push -u origin master
+
+
+How to disconnect a local Git repository from remote master:
+$ git remote -v
+origin https://github.com/Basil-AUTO/new_pro.git (fetch)
+origin https://github.com/Basil-AUTO/new_pro.git (push)
+$ git remote rm origin
+
+Excluding files (and folders) with `git add`, Since I wanted to exclude only the list-ops folder:
+git add -A ':!.venv'
+##################################################################
+
+
+
+
+
+jay@workstation:~/.ssh$ ssh -T -p 443 git@ssh.github.com
+Warning: Permanently added the ECDSA host key for IP address '[140.82.121.36]:443' to the list of known hosts.
+Hi Basil-AUTO! You've successfully authenticated, but GitHub does not provide shell access.
+
+jay@workstation:~/.ssh$ ssh -T -p 443 git@ssh.github.com
+Hi Basil-AUTO! You've successfully authenticated, but GitHub does not provide shell access.
+
+jay@workstation:~/.ssh$ git clone ssh://git@ssh.github.com:443/Basil-AUTO/ArouteServerPSIX.git
+Cloning into 'ArouteServerPSIX'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+jay@workstation:~/ansible_toturial$ git remote -v
+origin  ssh://git@ssh.github.com:443/Basil-AUTO/ansible_toturial.git (fetch)
+origin  ssh://git@ssh.github.com:443/Basil-AUTO/ansible_toturial.git (push)
+
+###################### مهم جدا ###########################
+
+   191  nano README.md
+  192  cat README.md
+  193  git status
+  194  git diff README.md
+  195  ll
+  196  git add
+  197  git add README.md
+  198  git status
+  199  git commit -m " That initial commit"
+  200  git push origin master
+  201  git push origin main
+  202  git remote -v
+
+ git push origin master نلاحظ أن الأمر1
+سوف نختار البديل
+
+https://stackoverflow.com/questions/4181861/message-src-refspec-master-does-not-match-any-when-pushing-commits-in-git
+
+jay@workstation:~/.ssh/ArouteServerPSIX$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'ssh://git@ssh.github.com:443/Basil-AUTO/ArouteServerPSIX.git'
+
+jay@workstation:~/.ssh/ArouteServerPSIX$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 3 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 306 bytes | 153.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To ssh://ssh.github.com:443/Basil-AUTO/ArouteServerPSIX.git
+   6da703c..4715278  main -> main
+
+#################################################
+
