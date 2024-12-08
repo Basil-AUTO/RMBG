@@ -34,6 +34,9 @@ $ git remote rm origin
 
 Excluding files (and folders) with `git add`, Since I wanted to exclude only the list-ops folder:
 git add -A ':!.venv'
+
+To create a new branch without committing on master, you can use:
+git checkout -b <branchname>
 ##################################################################
 
 
